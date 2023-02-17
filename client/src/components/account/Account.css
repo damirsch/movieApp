@@ -1,0 +1,156 @@
+.account{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.account__block tbody tr td{
+  font-size: 38px;
+}
+
+.account__link{
+  margin: 0 10px 0 0;
+  font-size: 20px;
+  color: #2034b9;
+}
+.account__link:active{
+  color: #2b44e3;
+}
+
+
+.account__img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.account__wrapper-img{
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+.account__file{
+  opacity: 0;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.account__file.hidden{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: inset 0px 0px 50px #414141ae;
+}
+
+.account__wrapper-img:hover .account__file.hidden{
+  opacity: 1;
+}
+
+
+.info-btn{
+  margin: 10px 0;
+  padding: 10px;
+  color: #038db3;
+  border: 1px solid #03a1b3;
+  font-size: 20px;
+  transition: all 0.2s ease;
+}
+.info-btn:hover{
+  border-radius: 15px;
+  background-color: #03a1b3;
+  box-shadow: 5px 5px 50px #03a1b3;
+  color: #e6e6e6;
+  transition: all 0.2s ease;
+}
+.info-btn:active{
+  border-radius: 15px;
+  background-color: #037481;
+  box-shadow: 5px 5px 50px #037481;
+  border: 1px solid #037481;
+  color: #e6e6e6;
+}
+
+.info-btn.active{
+  margin: 0;
+  color: #119c04;
+  border: 1px solid #119c04;
+  transition: all 0.2s ease;
+}
+.info-btn.active:hover{
+  border-radius: 15px;
+  background-color: #119c04;
+  box-shadow: 5px 5px 50px #119c04;
+  color: #e6e6e6;
+  transition: all 0.2s ease;
+}
+.info-btn.active:active{
+  border-radius: 15px;
+  background-color: #0d7404;
+  box-shadow: 5px 5px 50px #0d7404;
+  border: 1px solid #0d7404;
+  color: #e6e6e6;
+}
+
+.warning-btn{
+  margin: 10px 0;
+  padding: 10px;
+  color: #b30303;
+  font-size: 30px;
+  border: 1px solid #b30303;
+  transition: all 0.2s ease;
+}
+.warning-btn:hover{
+  border-radius: 15px;
+  background-color: #b30303;
+  color: #e6e6e6;
+  transition: all 0.2s ease;
+  box-shadow: 5px 2px 40px red;
+}
+.warning-btn:active{
+  border-radius: 15px;
+  background-color: #9e0303;
+  color: #e6e6e6;
+  box-shadow: 5px 5px 40px #9e0303;
+  border: 1px solid #9e0303;
+}
+
+.account__input{
+  margin: 0 10px 0 0;
+  height: 35px;
+  font-size: 22px;
+  padding: 5px 10px;
+  color: white;
+  background-color: #252525;
+  border: 1px solid #343434;
+  transition: all 0.2s ease;
+}
+.account__input:focus{
+  border-radius: 10px;
+  transition: all 0.2s ease;
+  background-color: #1b1b1b;
+  box-shadow: 0 0 20px #252525;
+}
+
+.account__error{
+  font-size: 12px;
+  margin: 5px 0 10px;
+  color: #bcbcbc;
+}
+
+.account__favourite-films{
+  margin-top: 50px;
+}
+
+.account__favourite-films .account__title{
+  font-size: 35px;
+  margin-bottom: 30px;
+}

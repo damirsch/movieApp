@@ -1,0 +1,33 @@
+.account-mobile table tbody tr td{
+  font-size: 20px;
+}
+
+.info-btn-mobile{
+  margin: 10px 0;
+  padding: 10px;
+  color: #038db3;
+  border: 1px solid #03a1b3;
+  font-size: 20px;
+  transition: all 0.2s ease;
+}
+.info-btn-mobile:active{
+  border-radius: 15px;
+  background-color: #037481;
+  box-shadow: 5px 5px 50px #037481;
+  border: 1px solid #037481;
+  color: #e6e6e6;
+}
+
+.info-btn-mobile.active{
+  margin: 0;
+  color: #119c04;
+  border: 1px solid #119c04;
+  transition: all 0.2s ease;
+}
+.info-btn-mobile.active:active{
+  border-radius: 15px;
+  background-color: #0d7404;
+  box-shadow: 5px 5px 50px #0d7404;
+  border: 1px solid #0d7404;
+  color: #e6e6e6;
+}

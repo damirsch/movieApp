@@ -1,0 +1,90 @@
+.carousel{
+  position: relative;
+  max-width: 100%;
+}
+
+.arrow{
+  position: absolute;
+  top: 35%;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #434343;
+  box-shadow: 0px 0px 20px #434343;
+  display: block;
+}
+
+.arrow:focus{
+  outline: none;
+}
+
+.arrow:hover{
+  background: #515151;
+  cursor: pointer;
+}
+
+.prev{
+  left: -20px;
+  display: none;
+  transition: all 0.3s ease;
+}
+.prev:hover{
+  left: -23px;
+}
+
+.next{
+  right: -20px;
+  transition: all 0.3s ease;
+}
+.next:hover{
+  right: -23px;
+}
+
+.carousel__items{
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel__items .carousel__container{
+  display: flex;
+  width: 9999px;
+  min-height: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: margin-left 250ms;
+  font-size: 0;
+}
+
+.carousel__items .carousel__item{
+  width: 440px;
+  margin-right: 10px;
+}
+
+.carousel__items .carousel__item.for-img img{
+  border-radius: 10px;
+  width: 170px;
+}
+
+.carousel__items .carousel__item .carousel__img{
+  background-color: #090909;
+  width: 100%;
+  height: 210px;
+}
+.carousel__items .carousel__item .carousel__img:hover{
+  background-color: #121212;
+}
+
+.carousel__items .carousel__item .carousel__title{
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 4px;
+}
+
+@media all and (max-width: 1280px){
+  .carousel__items .carousel__item{
+    width: 360px;
+  }
+  .carousel__items .carousel__item .carousel__img{
+    height: 180px;
+  }
+}

@@ -1,0 +1,126 @@
+.not-found{
+  font-family: 'Graphik Kinopoisk LC Web SB';
+  text-align: left;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.not-found__wrapper{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.not-found__content{
+  display: flex;
+  flex-direction: column;
+  max-width: 410px;
+  margin-right: auto;
+}
+
+.not-found__logo{
+  font-size: 35px;
+}
+
+.not-found__logo .logo__wrapper a{
+  position: relative;
+}
+.not-found__logo .logo__wrapper a:hover .logo__dash{
+  width: 100%;
+}
+
+.not-found__logo .logo__wrapper .logo__dash{
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  content: '';
+  background-color: #f60;
+  -webkit-transition: width 0.25s ease-out;
+  -moz-transition: width 0.25s ease-out;
+  transition: width 0.25s ease-out;
+}
+
+.not-found__logo .logo__wrapper{
+  padding: 60px 0 80px;
+}
+
+.not-found__img{
+  border-radius: 4px;
+  max-width: 500px;
+}
+
+.not-found__title{
+  max-width: 419px;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 52px;
+}
+
+.not-found__description{
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff80;
+}
+
+.not-found__links{
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.not-found__link{
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.not-found__link:hover{
+  color: white;
+}
+
+@media all and (max-width: 1023px){
+  .not-found{
+    max-width: 500px;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .not-found__wrapper{
+    display: block;
+  }
+  .not-found__title{
+    margin: 0 auto;
+  }
+  .not-found__content{
+    max-width: 500px;
+    margin: 80px auto 0;
+  }
+  .not-found__links{
+    margin: 100px 0 50px;
+  }
+}
+
+@media all and (max-width: 599px){
+  .not-found{
+    max-width: 340px;
+    padding: 0 10px;
+  }
+  .not-found__logo .logo__wrapper{
+    padding-top: 20px;
+  }
+  .not-found__img{
+    display: none;
+  }
+  .not-found__title{
+    font-size: 24px;
+    line-height: normal;
+  }
+  .not-found__description{
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .not-found__links{
+    margin-top: 150px;
+  }
+}

@@ -1,0 +1,202 @@
+button{
+  background-color: inherit;
+  border: none;
+}
+
+.navbar-mobile{
+  position: fixed;
+  background-color: #1a1a1a;
+  height: 70px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+}
+
+.navbar__wrapper-mobile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.navbar__menu-mobile{
+  margin-left: 20px;
+  display: inline-block;
+  position: relative;
+}
+
+/* ---- __TOGGLE__ ---- */
+
+.toggle-mobile{
+  position: absolute;
+  left: -16px;
+  width: 190px;
+  height: 27px;
+  z-index: 3;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* ------------ */
+
+.navbar__menu-mobile .navbar__logo-mobile{
+  font-family: 'Graphik Kinopoisk LC Web SB';
+  font-size: 27px;
+  white-space: nowrap;
+  padding: 0 10px 0 0;
+  margin-left: 15px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+}
+
+.navbar__text-mobile{
+  display: inline-block;
+  position: relative;
+}
+
+/* ---- __BURGER__ ---- */
+
+.burger-mobile{
+  position: absolute;
+  left: -25px;
+  bottom: 13px;
+}
+.burger-mobile > div{
+  position: absolute;
+  background-color: #bdbdbd;
+  width: 15px;
+  height: 3px;
+  border-radius: 5px;
+}
+.burger__top-mobile{
+  top: -10px;
+}
+.burger__middle-mobile{
+  top: -3px;
+}
+.burger__bottom-mobile{
+  top: 4px;
+}
+
+/* ------------ */
+.navbar__menu-mobile{
+  width: 100%;
+}
+
+.navbar__films-mobile{
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 35px;
+  overflow-x: auto;
+  max-height: 99vh;
+}
+
+.navbar__menu-mobile .navbar__items-mobile{
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  top: 70px;
+  left: 0;
+  font-size: 18px;
+  padding: 20px 0 20px 0;
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #1a1a1a;
+  border-top: 1px solid #414141;
+}
+.navbar__menu-mobile .navbar__items-mobile > a{
+  display: flex;
+  padding: 0 10px 0 20px;
+  align-items: center;
+  height: 50px;
+  color: #bdbdbd;
+}
+.navbar__menu-mobile .navbar__items-mobile > a:hover{
+  background-color: #242424;
+  color: #e6e6e6;
+}
+
+.navbar__input-mobile{
+  margin: auto 10px auto;
+  height: 15px;
+  min-width: 200px;
+  background-color: #232323;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  color: aliceblue;
+  font-size: 20px;
+  width: 100%;
+}
+
+.navbar__button-registration-mobile{
+  margin: 0 5px 0 auto;
+  height: 100%;
+  padding: 5px;
+  cursor: pointer;
+  background-color: inherit;
+  border: none;
+  font-size: 17px;
+  color: #bebebe;
+}
+
+.navbar__right-block-mobile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar__search-mobile-open{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar__search-mobile{
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+}
+
+.navbar__account-mobile{
+  margin-right: 10px;
+  border-radius: 100%;
+  width: 35px;
+}
+
+.fixed-left-block{
+  width: 100%;
+  background-color: #1a1a1a;
+}
+
+.fixed-left-block__nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  border-bottom: 1px solid #272727;
+}
+
+.fixed-left-block__input{
+  color: aliceblue;
+  width: 100%;
+  height: 60%;
+  font-size: 22px;
+  background: none;
+  border: none;
+}
+
+.close{
+  padding: 0;
+  width: 20px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

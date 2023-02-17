@@ -1,0 +1,169 @@
+.navbar{
+  position: sticky;
+  background-color: #1a1a1a;
+  height: 72px;
+  width: 100%;
+  top: -1px;
+  left: 0;
+  z-index: 2;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.navbar__wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+  height: 100%;
+  width: 1280px;
+  margin: 0 auto;
+}
+@media all and (max-width: 1280px) {
+  .navbar__wrapper{
+    width: 1024px;
+  }
+}
+
+.navbar__menu{
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.navbar__menu .navbar__logo{
+  font-family: 'Graphik Kinopoisk LC Web SB';
+  font-size: 35px;
+  white-space: nowrap;
+  padding: 0 30px 0 30px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.navbar__menu .navbar__items{
+  font-family: 'Graphik Kinopoisk LC Web SB';
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  top: -15px;
+  font-size: 18px;
+  padding: 87px 0 20px 0;
+  width: 285px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #212121;
+}
+.navbar__menu:hover .navbar__items{
+  display: flex;
+}
+.navbar__menu .navbar__items > a{
+  display: flex;
+  padding: 0 10px 0 10px;
+  align-items: center;
+  height: 50px;
+  color: #bdbdbd;
+}
+.navbar__menu .navbar__items > a:hover{
+  background-color: #1a1a1a;
+  color: #e6e6e6;
+}
+
+.navbar__block{
+  position: absolute;
+  width: 100%;
+  top: 22%;
+  left: 0;
+}
+
+.navbar__input{
+  margin: auto 0 auto;
+  height: 20px;
+  max-width: calc(100% - 10px);
+  background-color: #232323;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 0 10px 10px;
+  color: aliceblue;
+  font-size: 20px;
+  width: 100%;
+  font-weight: 100;
+  transition: all 0.2s;
+}
+.navbar__input:focus{
+  transition: all 0.2s;
+  background-color: #2c2c2c;
+  color: #dedcdc;
+}
+
+.navbar__block .navbar__items{
+  max-width: 100%;
+  margin-top: 4px;
+  border-radius: 4px;
+  font-size: 25px;
+  background-color: #2c2c2c;
+  display: none;
+}
+
+.navbar__films{
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 35px;
+  max-height: 50vw;
+  overflow-x: auto;
+}
+
+.navbar__first-search{
+  border-bottom: 1px solid #323232;
+  padding-bottom: 15px;
+}
+
+.navbar__search{
+}
+
+.navbar__item{
+  display: flex;
+  cursor: pointer;
+  padding: 10px;
+}
+.navbar__item:hover{
+  background-color: #212121;
+}
+
+.navbar__item .navbar__img{
+  width: 32px;
+  height: 48px;
+  border-radius: 3px;
+}
+
+.navbar__item .navbar__name{
+  font-weight: 400;
+}
+
+.navbar__description .navbar__rating{
+  font-weight: 500;
+}
+
+.navbar
+
+.navbar__button-authorization{
+  margin: 0 30px 0 auto;
+  height: 100%;
+  padding: 10px;
+  cursor: pointer;
+  background-color: inherit;
+  border: none;
+  font-size: 20px;
+  color: #bebebe;
+}
+
+.navbar__account a{
+  display: block;
+  background-size: cover;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  margin-right: 40px;
+}

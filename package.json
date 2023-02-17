@@ -1,0 +1,24 @@
+{
+  "name": "movieapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd ./server && npm start",
+    "start": "cd ./client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pudgepicker/kinopoiskV2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pudgepicker/kinopoiskV2/issues"
+  },
+  "homepage": "https://github.com/pudgepicker/kinopoiskV2#readme",
+  "dependencies": {
+    "react-favicon": "^1.0.1"
+  }
+}

@@ -1,0 +1,18 @@
+.modal-error{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal-error__wrapper{
+  width: 100vw;
+}
+
+.modal-error__block{
+  opacity: 1;
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 8px;
+  background-color: #8a0e31;
+  border-radius: 10px;
+}
