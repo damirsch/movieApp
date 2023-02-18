@@ -12,4 +12,4 @@ Use this to run the application
 
 ### `npm run dev`
 
-This command will launch a local server on your PC
+This command will start a local server on your PC so you can use the login feature, view your profile, add movies to your wishlist, etc.
