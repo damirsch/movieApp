@@ -6,7 +6,7 @@ In the project directory, you can run:
 
 Use this to run the application
 
-### `npm run dev`
+### `npm run serve`
 
 This command will start a local server on your PC so you can use the login feature, view your profile, add movies to your wishlist, etc.
 
