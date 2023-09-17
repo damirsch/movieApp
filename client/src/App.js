@@ -57,8 +57,8 @@ function App(){
         <Route path="/registration" element={<Registration isMobile={isMobile}/>}></Route>
         <Route path="/login" element={<Login isMobile={isMobile}/>}></Route>
         <Route path="/top250" element={<TopFilms isMobile={isMobile}/>}></Route>
-        <Route path="/film/:userId" element={<Film isMobile={isMobile}/>}></Route>
-        <Route path="/film/:userId/sequels-and-prequels" element={<Sequels isMobile={isMobile}/>}></Route>
+        <Route path="/film/:filmId" element={<Film isMobile={isMobile}/>}></Route>
+        <Route path="/film/:filmId/sequels-and-prequels" element={<Sequels isMobile={isMobile}/>}></Route>
         <Route path="/films/search/:key" element={<FoundFilms isMobile={isMobile}/>}></Route>
         <Route path="*" element={<NotFound/>}></Route>
       </Routes>
